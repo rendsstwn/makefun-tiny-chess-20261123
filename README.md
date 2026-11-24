@@ -6,9 +6,10 @@
 
 A tiny chess engine in 4 KB of Python: 0x88 board, negamax with
 alpha-beta, MVV-LVA + killer move ordering, transposition table,
-quiescence over captures, promotions and check evasions, and a
-material + piece-square evaluation. It searches to a fixed node
-budget per move (never a clock), so trials replay identically.
+null-move pruning, quiescence over captures, promotions and check
+evasions, and a material + piece-square evaluation with passed-pawn
+bonuses and tempo. It searches to a fixed node budget per move
+(never a clock), so trials replay identically.
 
 ## Run it
 
